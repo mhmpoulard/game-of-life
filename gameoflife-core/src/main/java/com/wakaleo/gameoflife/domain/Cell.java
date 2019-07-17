@@ -12,7 +12,6 @@ public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
-    private temp;
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
